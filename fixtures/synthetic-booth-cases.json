@@ -1,0 +1,11 @@
+{
+  "label": "SYNTHETIC booth cases (fictional people and messages; safe for rehearsals only)",
+  "sources": [
+    { "speaker_id": "noah", "thread_id": "noah-book", "participant_ids": ["owner", "noah"], "original_text": "You should read The Hobbit. It is still my favorite comfort book.", "source_at": "2026-09-20T14:00:00.000Z", "is_synthetic": true },
+    { "speaker_id": "maya", "thread_id": "maya-snack", "participant_ids": ["owner", "maya"], "original_text": "Let's try the Trader Joe's Speculoos Cookie Butter together if we find it.", "source_at": "2026-09-21T15:00:00.000Z", "is_synthetic": true },
+    { "speaker_id": "priya", "thread_id": "priya-camera", "participant_ids": ["owner", "priya"], "original_text": "I tried the Fujifilm X100V for a week. I disliked how heavy it felt, so I returned it.", "source_at": "2026-09-22T16:00:00.000Z", "is_synthetic": true },
+    { "speaker_id": "maya", "thread_id": "concert-group", "participant_ids": ["owner", "maya", "noah"], "original_text": "We should all go to the Chappell Roan show together.", "source_at": "2026-09-23T17:00:00.000Z", "is_synthetic": true },
+    { "speaker_id": "noah", "thread_id": "concert-group", "participant_ids": ["owner", "maya", "noah"], "original_text": "Yes, let's get tickets for the Chappell Roan show together.", "source_at": "2026-09-23T17:01:00.000Z", "is_synthetic": true },
+    { "speaker_id": "maya", "thread_id": "maya-restaurant", "participant_ids": ["owner", "maya"], "original_text": "We should go to Portillo's together when we're back in Chicago.", "source_at": "2026-09-24T18:00:00.000Z", "is_synthetic": true }
+  ]
+}

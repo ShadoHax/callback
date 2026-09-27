@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+# consented personal context, private photos, eval images and results (never commit)
+/data/private/
+__pycache__/
+*.pyc
+
+# Local Android build tools and generated APKs
+/.android-toolchain/
+/android/.gradle/
+/android/local.properties
+/android/app/build/
+/android/build/
+/artifacts/
+
+# Rebuilt from the pinned OpenCV package by predev/prebuild.
+/public/vendor/opencv.js
+
+# User-supplied local rehearsal clips (keep originals private).
+/IMG_3339.mov
+/IMG_3340.mov

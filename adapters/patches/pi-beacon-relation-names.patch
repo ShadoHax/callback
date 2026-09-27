@@ -1,0 +1,29 @@
+--- a/adapters/pi/beacon.py	2026-09-25 15:02:38
++++ b/adapters/pi/beacon.py	2026-09-25 15:02:38
+@@ -10,12 +10,21 @@
+ from urllib.parse import urlencode
+ from urllib.request import Request, urlopen
+ 
++WISH, PLAN, RECOMMENDATION, SHARED = (1, 0.35, 0), (0, 0.7, 1), (0, 1, 0.2), (0.65, 0, 1)
+ COLORS = {
+-    "wish": (1, 0.35, 0),
+-    "shared_plan": (0, 0.7, 1),
+-    "recommendation": (0, 1, 0.2),
+-    "gift": (0.65, 0, 1),
+-    "memory": (0.65, 0, 1),
++    # Relation names used by the scan pipeline on feature/live-pipeline.
++    "wanted": WISH,
++    "asked_to_find": WISH,
++    "planned_together": PLAN,
++    "recommended": RECOMMENDATION,
++    "gifted": SHARED,
++    "experienced_together": SHARED,
++    # Earlier names, kept so events recorded before the rename still light up.
++    "wish": WISH,
++    "shared_plan": PLAN,
++    "recommendation": RECOMMENDATION,
++    "gift": SHARED,
++    "memory": SHARED,
+ }
+ 
+ 

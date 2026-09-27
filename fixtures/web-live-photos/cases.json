@@ -1,0 +1,10 @@
+{
+  "cases": [
+    { "file": "grocery-diet-coke.png", "status": "matched", "person": "agarwal", "relation": "prefers" },
+    { "file": "grocery-soda-shelf.jpg", "status": "observe" },
+    { "file": "grocery-coffee-bags.jpg", "status": "matched", "person": "maya", "relation": "prefers", "preferenceMatch": "related" },
+    { "file": "light-roast-coffee-pod.jpg", "status": "matched", "person": "maya", "relation": "prefers", "preferenceMatch": "related" },
+    { "file": "war-and-peace-book.JPG", "status": "matched", "person": "maya", "relation": "inspired" },
+    { "file": "desk-stapler.jpg", "status": "no_match" }
+  ]
+}

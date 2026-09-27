@@ -1,0 +1,10 @@
+.git
+.next
+node_modules
+data/private
+.env*
+!.env.example
+
+# Private rehearsal clips stay on this machine
+IMG_3339.mov
+IMG_3340.mov

@@ -1,0 +1,14 @@
+{
+  "label": "SYNTHETIC local Imaging Edge Webcam regression (fictional messages; not an approved real conversation)",
+  "sources": [
+    { "speaker_id": "maya", "thread_id": "maya", "participant_ids": ["owner", "maya"], "original_text": "I have Imaging Edge Webcam installed for my Sony camera, and I really like it for video calls.", "source_at": "2026-09-25T15:00:00.000Z", "is_synthetic": true },
+    { "speaker_id": "maya", "thread_id": "maya", "participant_ids": ["owner", "maya"], "original_text": "Are you free to catch up this weekend?", "source_at": "2026-09-25T16:00:00.000Z", "is_synthetic": true },
+    { "speaker_id": "noah", "thread_id": "noah", "participant_ids": ["owner", "noah"], "original_text": "I finally sorted the photos from our hike.", "source_at": "2026-09-20T17:30:00.000Z", "is_synthetic": true },
+    { "speaker_id": "noah", "thread_id": "noah", "participant_ids": ["owner", "noah"], "original_text": "The trail was much quieter than I expected.", "source_at": "2026-09-21T18:10:00.000Z", "is_synthetic": true },
+    { "speaker_id": "priya", "thread_id": "priya", "participant_ids": ["owner", "priya"], "original_text": "Can you send me that pasta recipe?", "source_at": "2026-09-22T19:20:00.000Z", "is_synthetic": true },
+    { "speaker_id": "priya", "thread_id": "priya", "participant_ids": ["owner", "priya"], "original_text": "Dinner came out great, thanks!", "source_at": "2026-09-23T21:45:00.000Z", "is_synthetic": true },
+    { "speaker_id": "sam", "thread_id": "sam", "participant_ids": ["owner", "sam"], "original_text": "I moved the meeting to Thursday afternoon.", "source_at": "2026-09-24T13:05:00.000Z", "is_synthetic": true },
+    { "speaker_id": "sam", "thread_id": "sam", "participant_ids": ["owner", "sam"], "original_text": "I'll bring the notes we discussed.", "source_at": "2026-09-24T14:10:00.000Z", "is_synthetic": true },
+    { "speaker_id": "leo", "thread_id": "leo", "participant_ids": ["owner", "leo"], "original_text": "See you at the museum on Sunday.", "source_at": "2026-09-25T18:00:00.000Z", "is_synthetic": true }
+  ]
+}

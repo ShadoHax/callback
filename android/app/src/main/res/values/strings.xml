@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Callback</string>
+    <string name="load_error">Callback could not load. Check your internet connection and try again.</string>
+    <string name="retry">Retry</string>
+</resources>

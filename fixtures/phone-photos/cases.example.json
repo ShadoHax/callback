@@ -1,0 +1,7 @@
+{
+  "cases": [
+    { "file": "book-cover.jpg", "status": "matched", "person": "writing-friend", "relation": "planned_together" },
+    { "file": "different-edition.heic", "status": "no_match" },
+    { "file": "unreadable-cover.png", "status": "needs_clarification" }
+  ]
+}

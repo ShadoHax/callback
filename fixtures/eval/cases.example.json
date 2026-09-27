@@ -1,0 +1,19 @@
+{
+  "label": "FORMAT EXAMPLE ONLY. Copy to data/private/eval/cases.json, take real held-out photos, and write expectations before running.",
+  "corpus": "../synthetic-demo.json",
+  "cases": [
+    { "id": "wingspan-front", "image": "photos/wingspan-front.jpg", "split": "positive", "expect": { "status": "matched", "personId": "maya", "relation": "planned_together", "supportContains": ["We should try Wingspan together"] } },
+    { "id": "wingspan-angle", "image": "photos/wingspan-angle.jpg", "split": "positive", "note": "different angle and lighting, not used while tuning", "expect": { "status": "matched", "personId": "maya", "relation": "planned_together", "supportContains": ["We should try Wingspan together"] } },
+    { "id": "wingspan-after-purchase", "image": "photos/wingspan-front.jpg", "split": "updated", "note": "owning the game does not end the plan to play together",
+      "updates": [{ "speaker_id": "maya", "thread_id": "maya", "participant_ids": ["owner", "maya"], "original_text": "Update: I bought Wingspan!", "source_at": "2026-09-26T15:00:00.000Z", "is_synthetic": true }],
+      "expect": { "status": "matched", "personId": "maya", "relation": "planned_together", "supportContains": ["We should try Wingspan together"] } },
+    { "id": "wingspan-after-cancel", "image": "photos/wingspan-front.jpg", "split": "updated", "note": "a newer cancellation from Maya ends the plan",
+      "updates": [{ "speaker_id": "maya", "thread_id": "maya", "participant_ids": ["owner", "maya"], "original_text": "Let's skip the Wingspan plan, not really my thing after all.", "source_at": "2026-09-26T15:00:00.000Z", "is_synthetic": true }],
+      "expect": { "status": "no_match" } },
+    { "id": "x100v-front", "image": "photos/x100v-front.jpg", "split": "positive", "expect": { "status": "matched", "personId": "sam", "relation": "asked_to_find", "supportContains": ["If you spot an X100V"] } },
+    { "id": "x100v-after-purchase", "image": "photos/x100v-front.jpg", "split": "updated", "note": "buying this exact model ends the request",
+      "updates": [{ "speaker_id": "sam", "thread_id": "sam", "participant_ids": ["owner", "sam"], "original_text": "Update: I bought the X100V last week!", "source_at": "2026-09-26T15:00:00.000Z", "is_synthetic": true }],
+      "expect": { "status": "no_match" } },
+    { "id": "stapler", "image": "photos/stapler.jpg", "split": "no_match", "expect": { "status": "no_match" } }
+  ]
+}

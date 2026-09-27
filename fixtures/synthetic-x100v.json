@@ -1,0 +1,9 @@
+{
+  "label": "clearly labeled synthetic demo",
+  "sources": [
+    { "id": "885edbf2-d497-4f6f-a2cf-342711970001", "speaker_id": "maya", "thread_id": "demo-camera", "participant_ids": ["owner", "maya"], "original_text": "If you spot an X100V, send me a picture. I'm still looking for one.", "source_at": "2026-09-20T15:00:00.000Z", "is_synthetic": true },
+    { "id": "885edbf2-d497-4f6f-a2cf-342711970002", "speaker_id": "priya", "thread_id": "demo-camera", "participant_ids": ["owner", "priya"], "original_text": "I hated the X100V; I returned mine.", "source_at": "2026-09-21T15:00:00.000Z", "is_synthetic": true },
+    { "id": "885edbf2-d497-4f6f-a2cf-342711970003", "speaker_id": "noah", "thread_id": "demo-camera", "participant_ids": ["owner", "noah"], "original_text": "I bought an X100V yesterday.", "source_at": "2026-09-22T15:00:00.000Z", "is_synthetic": true },
+    { "id": "885edbf2-d497-4f6f-a2cf-342711970004", "speaker_id": "jordan", "thread_id": "demo-camera", "participant_ids": ["owner", "jordan"], "original_text": "My sister wants an X100V.", "source_at": "2026-09-23T15:00:00.000Z", "is_synthetic": true }
+  ]
+}

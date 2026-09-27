@@ -1,0 +1,112 @@
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.outline {
+  position: absolute;
+  border: 3px solid #268cff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), inset 0 0 0 1px rgba(0, 0, 0, .13);
+}
+
+.corner { position: absolute; width: 17px; height: 17px; border: 0 solid #268cff; }
+.topLeft { top: -1px; left: -1px; border-top-width: 5px; border-left-width: 5px; }
+.topRight { top: -1px; right: -1px; border-top-width: 5px; border-right-width: 5px; }
+.bottomLeft { bottom: -1px; left: -1px; border-bottom-width: 5px; border-left-width: 5px; }
+.bottomRight { bottom: -1px; right: -1px; border-bottom-width: 5px; border-right-width: 5px; }
+
+.card {
+  position: absolute;
+  box-sizing: border-box;
+  pointer-events: auto; overscroll-behavior: contain;
+  overflow: auto;
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 10px;
+  background: rgba(16, 19, 20, .88);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .24);
+  backdrop-filter: blur(15px);
+  padding: 12px 13px 11px;
+  overflow-wrap: anywhere;
+}
+
+.label { margin: 0; color: #e3e7e7; font-size: 11px; line-height: 1.35; }
+.person { margin: 7px 0 0; color: #fff; font-size: 19px; font-weight: 600; line-height: 1.2; letter-spacing: -.03em; }
+.reason { margin: 5px 0 0; color: #e3e7e7; font-size: 12px; line-height: 1.45; }
+.open { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; margin-top: 10px; padding: 9px 0 0; border: 0; border-top: 1px solid rgba(255, 255, 255, .2); background: transparent; color: #fff; text-align: left; font-size: 12px; font-weight: 700; cursor: pointer; pointer-events: auto; }
+.open:hover:not(:disabled) { text-decoration: underline; text-underline-offset: 3px; }
+.open:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }
+.open:disabled { opacity: .55; cursor: not-allowed; }
+
+@media (max-width: 560px) {
+  .card { padding: 9px 10px;  }
+  .person { font-size: 17px; margin-top: 5px; }
+  .reason { font-size: 11px; }
+  .open { margin-top: 8px; padding-top: 7px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .outline, .card { scroll-behavior: auto; }
+}
+
+.product { margin: 6px 0 0; font-size: 14px; line-height: 1.3; font-weight: 600; }
+.note { margin: 7px 0 0; font-size: 10px; line-height: 1.35; color: #bec9c9; }
+.shop { border-color: rgba(166, 222, 208, .5); }
+/* Keep actions reachable when the image is shorter than the requested cards. */
+.card { display: flex; flex-direction: column; }
+.label, .person, .open { flex-shrink: 0; }
+.reason, .note { min-height: 0; overflow-y: auto; }
+.product { flex-shrink: 1; min-height: 0; overflow-y: auto; }
+.open { text-decoration: none; }
+@media (max-width: 560px) {
+  .label { font-size: 9px; }
+  .person { font-size: 15px; }
+  .product { font-size: 12px; }
+  .open { font-size: 11px; padding-top: 4px; margin-top: 4px; }
+}
+.card { container-type: size; }
+@container (max-height: 125px) {
+  .note { display: none; }
+}
+.compactCard {
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  max-width: 310px;
+  padding: 12px 14px;
+  border: 1px solid rgba(255,255,255,.32);
+  border-radius: 17px;
+  background: rgba(15, 30, 23, .86);
+  box-shadow: 0 6px 20px rgba(0,0,0,.25);
+  color: #fff;
+  text-align: left;
+  font: inherit;
+  backdrop-filter: blur(14px);
+  pointer-events: auto;
+  overflow: hidden;
+}
+button.compactCard { cursor: pointer; }
+button.compactCard:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.compactAvatar {
+  display: grid;
+  flex: 0 0 40px;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #d7e8bd;
+  color: #17331f;
+  font-size: 18px;
+  font-weight: 700;
+}
+.compactText { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: 3px; }
+.compactHeading { display: flex; align-items: center; gap: 6px; min-width: 0; font-size: 16px; line-height: 1.2; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.compactReason { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; font-size: 14px; line-height: 1.3; color: #e1eadd; }
+.testBadge { flex: none; border-radius: 4px; padding: 1px 4px; background: rgba(214,232,188,.21); color: #d9efbd; font-size: 8px; letter-spacing: .08em; }
+.compactArrow { flex: none; align-self: flex-start; font-size: 18px; color: #d9efbd; }

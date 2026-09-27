@@ -1,0 +1,136 @@
+{
+  "description": "Observed SearchApi Google Shopping listings. Saved prices with original source URLs and individual checked timestamps; not current availability or delivery quotes.",
+  "entries": [
+    {
+      "query": "bananas",
+      "aliases": [
+        "banana",
+        "bananas",
+        "fresh banana",
+        "fresh bananas",
+        "ripe banana",
+        "ripe bananas"
+      ],
+      "title": "Dillons Food Stores - Chiquita Yellow Bananas, 1 ct",
+      "merchant": "Hy-Vee",
+      "amountCents": 50,
+      "currency": "USD",
+      "observedAt": "2026-09-27T05:15:30.800Z",
+      "sourceProvider": "searchapi",
+      "sourceQuery": "bananas",
+      "merchantUrl": "https://www.google.com/search?ibp=oshop&q=bananas&prds=catalogid:4525660699638226084,gpcid:13680478110016497792,headlineOfferDocid:8471773104623835438,imageDocid:6966051804286595024,pvo:25,pvt:hg&gl=us&hl=en&udm=28"
+    },
+    {
+      "query": "all purpose flour",
+      "aliases": [
+        "flour",
+        "all purpose flour"
+      ],
+      "title": "Gold Medal All Purpose Flour",
+      "merchant": "Hy-Vee",
+      "amountCents": 788,
+      "currency": "USD",
+      "observedAt": "2026-09-27T05:15:39.590Z",
+      "sourceProvider": "searchapi",
+      "sourceQuery": "all purpose flour",
+      "merchantUrl": "https://www.google.com/search?ibp=oshop&q=all+purpose+flour&prds=catalogid:2384493796120842037,gpcid:11757006359590697751,headlineOfferDocid:2399770287848580593,imageDocid:11079761188290679331,pvo:25,pvt:hg&gl=us&hl=en&udm=28"
+    },
+    {
+      "query": "granulated sugar",
+      "aliases": [
+        "sugar",
+        "white sugar",
+        "granulated sugar",
+        "granulated white sugar",
+        "white granulated sugar",
+        "cane sugar"
+      ],
+      "title": "C&H Granulated White Pure Cane Sugar",
+      "merchant": "Hy-Vee",
+      "amountCents": 229,
+      "currency": "USD",
+      "observedAt": "2026-09-27T05:15:33.417Z",
+      "sourceProvider": "searchapi",
+      "sourceQuery": "cane sugar Hy-Vee",
+      "merchantUrl": "https://www.google.com/search?ibp=oshop&q=cane+sugar+Hy-Vee&prds=catalogid:7746976777051532216,gpcid:5217707886761902427,headlineOfferDocid:11710967023491109665,imageDocid:2133379188061630846,pvo:25,pvt:hg&gl=us&hl=en&udm=28"
+    },
+    {
+      "query": "large eggs",
+      "aliases": [
+        "eggs",
+        "egg",
+        "large eggs",
+        "large egg",
+        "large white eggs"
+      ],
+      "title": "Hy vee large grade a eggs",
+      "merchant": "Hy-Vee",
+      "amountCents": 99,
+      "currency": "USD",
+      "observedAt": "2026-09-27T05:15:37.779Z",
+      "sourceProvider": "searchapi",
+      "sourceQuery": "large eggs",
+      "merchantUrl": "https://www.google.com/search?ibp=oshop&q=large+eggs&prds=catalogid:10427329933133176889,gpcid:1160723431151495221,headlineOfferDocid:12313381040427184577,imageDocid:6304684292642927175,pvo:25,pvt:hg&gl=us&hl=en&udm=28"
+    },
+    {
+      "query": "unsalted butter",
+      "aliases": [
+        "butter",
+        "unsalted butter"
+      ],
+      "title": "Hy-Vee Unsalted Sweet Butter Quarters",
+      "merchant": "Hy-Vee",
+      "amountCents": 399,
+      "currency": "USD",
+      "observedAt": "2026-09-27T05:15:40.663Z",
+      "sourceProvider": "searchapi",
+      "sourceQuery": "unsalted butter",
+      "merchantUrl": "https://www.google.com/search?ibp=oshop&q=unsalted+butter&prds=catalogid:118120166619530745,gpcid:9071821432723534395,headlineOfferDocid:16549263699789978722,imageDocid:10191670836887988977,pvo:25,pvt:hg&gl=us&hl=en&udm=28"
+    },
+    {
+      "query": "baking soda",
+      "aliases": [
+        "baking soda"
+      ],
+      "title": "ARM Hammer Baking Soda",
+      "merchant": "Hy-Vee",
+      "amountCents": 99,
+      "currency": "USD",
+      "observedAt": "2026-09-27T05:15:41.503Z",
+      "sourceProvider": "searchapi",
+      "sourceQuery": "baking soda Hy-Vee",
+      "merchantUrl": "https://www.google.com/search?ibp=oshop&q=baking+soda+Hy-Vee&prds=catalogid:3058318256565038677,gpcid:8297481271810927754,headlineOfferDocid:10284112449665279370,imageDocid:18027339605595906237,pvo:25,pvt:hg&gl=us&hl=en&udm=28"
+    },
+    {
+      "query": "salt",
+      "aliases": [
+        "salt",
+        "table salt",
+        "iodized salt"
+      ],
+      "title": "Iodized Salt Morton",
+      "merchant": "Hy-Vee",
+      "amountCents": 199,
+      "currency": "USD",
+      "observedAt": "2026-09-27T05:15:42.842Z",
+      "sourceProvider": "searchapi",
+      "sourceQuery": "salt Hy-Vee",
+      "merchantUrl": "https://www.google.com/search?ibp=oshop&q=salt+Hy-Vee&prds=catalogid:1156916730774236885,gpcid:13162762083351279343,headlineOfferDocid:16959432967997226865,imageDocid:3023177694371044368,pvo:25,pvt:hg&gl=us&hl=en&udm=28"
+    },
+    {
+      "query": "vanilla extract",
+      "aliases": [
+        "vanilla extract",
+        "pure vanilla extract"
+      ],
+      "title": "Hy-Vee Pure Vanilla Extract",
+      "merchant": "Hy-Vee",
+      "amountCents": 597,
+      "currency": "USD",
+      "observedAt": "2026-09-27T05:15:42.353Z",
+      "sourceProvider": "searchapi",
+      "sourceQuery": "vanilla extract Hy-Vee",
+      "merchantUrl": "https://www.google.com/search?ibp=oshop&q=vanilla+extract+Hy-Vee&prds=catalogid:11452622686354714215,gpcid:2745801589924228813,headlineOfferDocid:13213637764113388746,imageDocid:296942655183324382,pvo:25,pvt:hg&gl=us&hl=en&udm=28"
+    }
+  ]
+}
